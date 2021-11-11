@@ -86,7 +86,7 @@ class Music(commands.Cog):
                 await self.vc.move_to(self.music_queue[0][1])
 
             await ctx.send(
-                f""":arrow_forward: Playing **{self.music_queue[0][0]['title']}** -- requested by `{self.music_queue[0][2]}`"""
+                f""":arrow_forward: Memutar **{self.music_queue[0][0]['title']}** -- permintaan dari `{self.music_queue[0][2]}`"""
             )
 
             self.vc.play(
